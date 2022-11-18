@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GAME MATRIX</title>
+    <link rel = "stylesheet" href="game-matrix.css">
+    
+</head>
+<body>
+    
+    <header id="header">SPV GAME MATRIX<br> BASIC</br></header>
+
+    <div class="pop-up" id="pop-up" >
+
+        <h2 id="else-statement">MOVE NOT ALLOWED!</h2>
+
+        <button id= "btn" type="button" onclick="closePopUp()">OK</button>
+
+    </div>
+
+<div id="row1">
+
+    <div class="box1" id="x0y0"></div>
+
+    <div class="box1" id="x0y1"></div>
+
+    <div class="box1" id="x0y2"></div>
+
+</div>
+ 
+<div id="row2">
+    <div class="box1" id="x1y0"></div>
+
+    <div class="box1" id="x1y1"></div>
+
+    <div class="box1" id="x1y2"></div>
+ </div>
+
+ <div id="row3">
+    <div class="box1" id="x2y0"></div>
+
+    <div class="box1" id="x2y1"></div>
+
+    <div class="box1" id="x2y2"></div>
+ </div>
+
+
+ <div id = "up">
+    <div class="box2" id="to-up" onclick="openPopUp()"></div>
+</div>
+
+<div id = "middle">
+    <div class="box2" id="to-left" onclick="openPopUp()"></div>
+
+    <div class="box2" id="to-right" onclick="openPopUp()" >
+       
+    </div>
+</div>
+
+<div id = "down">
+    <div class="box2" id="to-down" onclick="openPopUp()"></div>
+
+</div>
+ 
+
+    <script src="game-matrix.js"></script>
+</body>
+
+</html>
